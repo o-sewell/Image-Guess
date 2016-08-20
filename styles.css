@@ -1,0 +1,15 @@
+.container {
+ width: 90%;
+ margin: 0 auto;
+ text-align: center;
+}
+
+
+img {
+  height: 250px;
+  width: 200px;
+}
+
+h1, p{
+  text-align: center;
+}
