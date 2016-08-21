@@ -12,4 +12,12 @@ function showAnswer(eventObj) {
   var name = image.id;
   name = name + ".jpg";
   image.src = name;
+
+  setTimeout(reblur, 1500, image);
 };
+
+function reblur(image) {
+  var name = image.id;
+  name = name + "blur.jpg";
+  image.src = name;
+}
